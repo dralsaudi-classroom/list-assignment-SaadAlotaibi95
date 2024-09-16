@@ -72,6 +72,7 @@ public class LinkedList<T> implements List<T>{
     			mostFrequented = currElement.data;
     		}
     		currElement = currElement.next;
+		counter = 0;
     	}
     	return mostFrequented;
     }
