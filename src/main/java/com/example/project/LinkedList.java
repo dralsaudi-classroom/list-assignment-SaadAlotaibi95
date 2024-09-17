@@ -55,7 +55,7 @@ public class LinkedList<T> implements List<T>{
         }
     }
     public T mostFrequentElement() {
-       Node<T> currElement = head;
+    	Node<T> currElement = head;
     	Node<T> element;
     	T mostFrequented = null;
     	int counter = 0;
@@ -72,7 +72,7 @@ public class LinkedList<T> implements List<T>{
     			mostFrequented = currElement.data;
     		}
     		currElement = currElement.next;
-		counter = 0;
+    		counter = 0;
     	}
     	return mostFrequented;
     }
